@@ -1,0 +1,25 @@
+/*Program based on string interpolation*/
+package Package12
+
+object obj12 {
+  def main(args: Array[String]){
+    val name="Rajesh"
+    val age= 18
+     println(name + " is "+ age + " yrs old")
+     println(s"$name is $age yrs old")
+     println(f"$name%s is $age%d yrs old") 
+    /* println(s"hello \n world")
+       //rprintln(raw"hello \n world")*/
+    
+  }
+  }
+    /*
+    o/p
+    Rajesh is 18 yrs old
+Rajesh is 18 yrs old
+Rajesh is 18 yrs old
+
+    
+    
+    
+    */
